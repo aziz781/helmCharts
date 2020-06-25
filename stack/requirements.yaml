@@ -1,5 +1,0 @@
-dependencies:
-  # Utilities
-  - name: customer-api
-    version: "0.7.0"
-    repository: aziz781.github.io/helm-chart
