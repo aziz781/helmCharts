@@ -1,0 +1,9 @@
+dependencies:
+- name: customer-api
+  repository: https://aziz781.github.io/helm-chart
+  version: 0.7.0
+- name: retail-api
+  repository: https://aziz781.github.io/helmCharts
+  version: 0.1.0
+digest: sha256:fc367f253904fd5b4ca4b7f5ff1e7eb61b3c354fb173e2a57fa8d3d44c5334f7
+generated: "2020-06-25T22:22:23.621766684Z"
