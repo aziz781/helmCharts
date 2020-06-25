@@ -4,11 +4,10 @@
 
 replicaCount: 1
 
-image:
-  repository: nginx
-  pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+persistence:
+ enabled: true
+ server: 212.71.235.182
+ serverConfigLocationPath: "/"
 
 imagePullSecrets: []
 nameOverride: ""
