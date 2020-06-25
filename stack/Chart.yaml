@@ -28,5 +28,5 @@ dependencies:
     version: "0.7.0"
     repository: https://aziz781.github.io/helm-chart
   - name: retail-api
-    version: "0.7.0"
+    version: "0.1.0"
     repository: https://aziz781.github.io/helmCharts    
