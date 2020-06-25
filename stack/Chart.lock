@@ -3,4 +3,4 @@ dependencies:
   repository: https://aziz781.github.io/helm-chart
   version: 0.7.0
 digest: sha256:06a41d2887379b57959b7960b6577fbb54889d31d53b5bc265db659e0907ccac
-generated: "2020-06-25T21:18:38.72859755Z"
+generated: "2020-06-25T22:09:51.955570811Z"
