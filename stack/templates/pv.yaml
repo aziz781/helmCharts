@@ -1,0 +1,18 @@
+{{- if .Values.persistence.enabled }}
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{.Release.Namespace }}-shared-volume
+  namespace : {{ .Release.Namespace }}
+  labels:
+    purpose: {{ .Release.Namespace }}-shared
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Retain
+  nfs:
+    server: {{ .Values.persistence.server }}
+    path: {{ .Values.persistence.serverConfigLocationPath }}
+{{- end }}
