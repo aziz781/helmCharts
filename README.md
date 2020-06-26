@@ -1,5 +1,5 @@
 ## Welcome to My Helm Charts for DevOps
-Kubernetes CI/CD pipeline for deployments in kuberbestes clusters 
+Jenkins CI/CD pipeline and K8s clusters enviroment provining 
 
 ### Tools - CI/CD pipeline
 - Kubernestes Cluster
