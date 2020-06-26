@@ -26,15 +26,15 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-      volumeMounts:
-        - name: shared-volume
-          mountPath: "/var/nfs/camel"
-      volumes:
-        - name: shared-volume
-        {{- if .Values.persistence.enabled }}
-          persistentVolumeClaim:
-            claimName: {{ .Release.Namespace }}-shared-claim
-        {{- else }}
-          emptyDir: {}
-        {{- end }}
+          volumeMounts:
+            - name: shared-volume
+              mountPath: "/var/nfs/camel"
+          volumes:
+            - name: shared-volume
+            {{- if .Values.persistence.enabled }}
+              persistentVolumeClaim:
+                claimName: {{ .Release.Namespace }}-shared-claim
+            {{- else }}
+              emptyDir: {}
+            {{- end }}
    
