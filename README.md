@@ -1,7 +1,7 @@
 ## Welcome to My Helm Charts for DevOps
 Kubernetes CI/CD pipeline for deployments in kuberbestes clusters 
 
-### Tools
+### Tools - CI/CD pipeline
 - Kubernestes Cluster
 - Docker Images
 - Helm Charts
@@ -15,6 +15,12 @@ Kubernetes CI/CD pipeline for deployments in kuberbestes clusters
 - Jenkins Pipeline
 - Bash Script
 - Python 3
+
+
+### Tools - Enviroment Build
+- AWS
+- Ansible
+- Terraform
 
 You can use the [editor on GitHub](https://github.com/aziz781/helmCharts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
