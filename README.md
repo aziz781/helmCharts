@@ -6,7 +6,7 @@ Kubernetes CI/CD pipeline for deployments in kuberbestes clusters
 - Docker Images
 - Helm Charts
 - Rancher Server
-- Amazon EFS - PV
+- NFS Share - AWS EFS - PV
 - DNS
 - ISTIO
 - Rancher CLI
