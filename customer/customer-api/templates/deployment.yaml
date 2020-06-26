@@ -28,7 +28,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
       volumeMounts:
         - name: shared-volume
-          mountPath: "/opt/camel"
+          mountPath: "/var/nfs/camel"
       volumes:
         - name: shared-volume
         {{- if .Values.persistence.enabled }}
