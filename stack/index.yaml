@@ -3,7 +3,24 @@ entries:
   stack:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-06-26T08:58:03.563562933Z"
+    created: "2020-06-26T21:41:12.202065408Z"
+    dependencies:
+    - name: customer-api
+      repository: https://aziz781.github.io/helmCharts/customer
+      version: 0.2.0
+    - name: retail-api
+      repository: https://aziz781.github.io/helmCharts/retail
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 7ef4f392c1052ac5539cd9cfb26e3d60c325784d09740db37d43711ccf68b68b
+    name: stack
+    type: application
+    urls:
+    - https://aziz781.github.io/helmCharts/stack/stack-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2020-06-26T21:41:12.199385667Z"
     dependencies:
     - name: customer-api
       repository: https://aziz781.github.io/helmCharts/customer
@@ -18,4 +35,4 @@ entries:
     urls:
     - https://aziz781.github.io/helmCharts/stack/stack-0.2.0.tgz
     version: 0.2.0
-generated: "2020-06-26T08:58:03.559586632Z"
+generated: "2020-06-26T21:41:12.194259894Z"
