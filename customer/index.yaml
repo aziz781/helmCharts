@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  customer-api:
+  - apiVersion: v2
+    appVersion: "47"
+    created: "2020-06-26T08:51:07.154360553Z"
+    description: A Helm chart for Kubernetes
+    digest: 4d8907fb1b58af6cedc1f39f4eb7674a421c2d6257ad1e6bbd9542e54d907914
+    name: customer-api
+    type: application
+    urls:
+    - https://aziz781.github.io/helmCharts/customer/customer-api-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-26T08:51:07.152186832Z"
